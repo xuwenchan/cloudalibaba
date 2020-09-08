@@ -1,0 +1,14 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="cloudprovider:war">
+    <output-path>$PROJECT_DIR$/parent/cloudprovider/target</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <module>cloudprovider</module>
+        <packaging>war</packaging>
+      </options>
+    </properties>
+    <root id="archive" name="cloudprovider.war">
+      <element id="artifact" artifact-name="cloudprovider:war exploded" />
+    </root>
+  </artifact>
+</component>

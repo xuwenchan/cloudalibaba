@@ -1,0 +1,14 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="cloudcommon:war">
+    <output-path>$PROJECT_DIR$/parent/cloudcommon/target</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <module>cloudcommon</module>
+        <packaging>war</packaging>
+      </options>
+    </properties>
+    <root id="archive" name="cloudcommon.war">
+      <element id="artifact" artifact-name="cloudcommon:war exploded" />
+    </root>
+  </artifact>
+</component>

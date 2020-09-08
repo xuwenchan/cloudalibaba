@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="cloudservice" />
+        <module name="cloudmodal" />
+        <module name="clouddao" />
+        <module name="cloudcommon" />
+        <module name="cloudprovider" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="cloudcommon" target="1.8" />
+      <module name="clouddao" target="1.8" />
+      <module name="cloudmodal" target="1.8" />
+      <module name="cloudprovider" target="1.8" />
+      <module name="cloudservice" target="1.8" />
+      <module name="parent" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="cloudcommon" options="-parameters" />
+      <module name="clouddao" options="-parameters" />
+      <module name="cloudmodal" options="-parameters" />
+      <module name="cloudprovider" options="-parameters" />
+      <module name="cloudservice" options="-parameters" />
+      <module name="parent" options="-parameters" />
+    </option>
+  </component>
+</project>

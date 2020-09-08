@@ -1,0 +1,5 @@
+com\cloud\service\impl\UserServiceImpl.class
+com\cloud\application\ProviderApplication.class
+com\cloud\controller\ProviderController.class
+com\cloud\service\UserService.class
+com\cloud\dao\UserMapper.class

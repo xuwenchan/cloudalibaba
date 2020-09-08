@@ -1,0 +1,14 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="cloudservice:war">
+    <output-path>$PROJECT_DIR$/parent/cloudservice/target</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <module>cloudservice</module>
+        <packaging>war</packaging>
+      </options>
+    </properties>
+    <root id="archive" name="cloudservice.war">
+      <element id="artifact" artifact-name="cloudservice:war exploded" />
+    </root>
+  </artifact>
+</component>

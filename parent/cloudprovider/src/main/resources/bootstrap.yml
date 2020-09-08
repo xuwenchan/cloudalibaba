@@ -1,0 +1,14 @@
+server:
+  port: 8762
+spring:
+  application:
+    name: provider
+  main:
+    allow-bean-definition-overriding: true
+  cloud:
+    nacos:
+      config:
+        server-addr: 172.0.0.1:8848
+        #namespace: c22e5019-0bee-43b1-b80b-fc0b9d847501
+        file-extension: yaml
+        #group: NACOS-CONFIG

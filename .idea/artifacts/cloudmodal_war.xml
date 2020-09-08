@@ -1,0 +1,14 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="cloudmodal:war">
+    <output-path>$PROJECT_DIR$/parent/cloudmodal/target</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <module>cloudmodal</module>
+        <packaging>war</packaging>
+      </options>
+    </properties>
+    <root id="archive" name="cloudmodal.war">
+      <element id="artifact" artifact-name="cloudmodal:war exploded" />
+    </root>
+  </artifact>
+</component>

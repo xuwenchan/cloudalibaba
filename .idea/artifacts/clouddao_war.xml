@@ -1,0 +1,14 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="clouddao:war">
+    <output-path>$PROJECT_DIR$/parent/clouddao/target</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <module>clouddao</module>
+        <packaging>war</packaging>
+      </options>
+    </properties>
+    <root id="archive" name="clouddao.war">
+      <element id="artifact" artifact-name="clouddao:war exploded" />
+    </root>
+  </artifact>
+</component>

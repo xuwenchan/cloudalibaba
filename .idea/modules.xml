@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/cloudalibaba.iml" filepath="$PROJECT_DIR$/.idea/cloudalibaba.iml" />
+      <module fileurl="file://$PROJECT_DIR$/parent/cloudcommon/cloudcommon.iml" filepath="$PROJECT_DIR$/parent/cloudcommon/cloudcommon.iml" />
+      <module fileurl="file://$PROJECT_DIR$/parent/clouddao/clouddao.iml" filepath="$PROJECT_DIR$/parent/clouddao/clouddao.iml" />
+      <module fileurl="file://$PROJECT_DIR$/parent/cloudmodal/cloudmodal.iml" filepath="$PROJECT_DIR$/parent/cloudmodal/cloudmodal.iml" />
+      <module fileurl="file://$PROJECT_DIR$/parent/cloudprovider/cloudprovider.iml" filepath="$PROJECT_DIR$/parent/cloudprovider/cloudprovider.iml" />
+      <module fileurl="file://$PROJECT_DIR$/parent/cloudservice/cloudservice.iml" filepath="$PROJECT_DIR$/parent/cloudservice/cloudservice.iml" />
+      <module fileurl="file://$PROJECT_DIR$/parent/parent.iml" filepath="$PROJECT_DIR$/parent/parent.iml" />
+    </modules>
+  </component>
+</project>
